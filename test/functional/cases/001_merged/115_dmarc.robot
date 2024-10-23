@@ -99,3 +99,9 @@ DMARC PCT ZERO SP QUARANTINE
   ...  IP=37.48.67.26  From=foo@mom.za.org
   ...  Settings=${DMARC_SETTINGS}
   Expect Symbol  DMARC_POLICY_SOFTFAIL
+
+SPF FAIL DKIM PASS
+  Scan File  ${RSPAMD_TESTDIR}/messages/dmarc/spf_fail_dkim_pass.eml
+  ...  IP=37.48.67.26  From=foo@mom.za.org
+  ...  Settings=${DMARC_SETTINGS}
+  Expect Symbol  DMARC_POLICY_QUARANTINE

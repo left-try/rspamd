@@ -226,7 +226,7 @@ local function dmarc_validate_policy(task, policy, hdrfromdom, dmarc_esld)
     maybe_force_action(task, disposition)
   end
 
-  if spf_ok or dkim_ok then
+  if spf_ok and dkim_ok then
     --[[
     https://tools.ietf.org/html/rfc7489#section-6.6.2
     DMARC evaluation can only yield a "pass" result after one of the
