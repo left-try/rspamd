@@ -1,5 +1,5 @@
 Return-Path: <0100019094e6348d-c27f184d-73ea-4963-8682-49e5032a0ed8-000000@noreply.dewagg.net>
-Delivered-To: example@exapmple.com
+Delivered-To: flavio@lucanet.com.br
 Received: (qmail 326 invoked by uid 89); 9 Jul 2024 00:30:45 -0000
 Received: from unknown (HELO mx.emailarray.com) (MTkyLjE2OC4xLjk1) (POLARISLOCAL)
   by mx13.emailarray.com with SMTP; 9 Jul 2024 00:30:45 -0000
@@ -30,7 +30,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
 	mr4MFfqWdA7Ys9D9djHEvQR6PQhSojO6BlxRMUMs=
 MIME-Version: 1.0
 From: Disney+ <info@dewagg.net>
-To: example@exapmple.com
+To: flavio@lucanet.com.br
 Date: Tue, 9 Jul 2024 00:30:33 +0000
 Subject: Failed to renew your subscription
 Content-Type: text/html; charset=utf-8
@@ -45,7 +45,7 @@ X-Rspamd-Score: 2.415445
 X-EmailArray-EnvFrom: 0100019094e6348d-c27f184d-73ea-4963-8682-49e5032a0ed8-000000@noreply.dewagg.net
 X-EmailArray-Remote-IP: 54.240.124.144
 X-EmailArray-UID: C9882F2B-3D65-40E6-92B0-97AE02A77D13.1
-X-EmailArray-TO: example@exapmple.com
+X-EmailArray-TO: flavio@lucanet.com.br
 X-PolarisMail-Flags: x
 X-PolarisMail-Spam: No
 
